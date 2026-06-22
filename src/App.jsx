@@ -5,7 +5,7 @@ export default function App() {
   const [theme, setTheme] = useState('dark');
 
   // --- Typing Animation State ---
-  const roles = ['Fullstack Developer_', 'Web Developer_', 'Graphic Designer_', 'System Builder_'];
+  const roles = ['Fullstack Developer_', 'Web Developer_', 'Graphic Designer_','Game Developer', 'System Builder_'];
   const [typedText, setTypedText] = useState('');
   const roleIdx = useRef(0);
   const charIdx = useRef(0);
